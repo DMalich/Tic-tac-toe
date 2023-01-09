@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(135deg, #8052ec, #d48fef);
+}
+
+.App {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 4rem;
+    background-color:rgb(248, 240, 229);
+    border: solid 1px black;
+    color: black;
+    border-radius: 10px;
+}
+
+.cell_o {
+    background-color: lavender;
+}
+
+.cell_x {
+    background-color: lightpink;
+}
+
+.btn-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-reset {
+    font-size: 1rem;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 6px;
+    padding: 1rem;
+    cursor: pointer;
+}
